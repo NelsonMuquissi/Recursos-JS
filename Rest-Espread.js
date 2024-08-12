@@ -1,27 +1,27 @@
-// // Rest
+// Rest
 
-// function SomaNumeros(...numeros){
-//     return numeros.reduce((total, numero) => total + numero) 
-// }
+function SomaNumeros(...numeros){
+    return numeros.reduce((total, numero) => total + numero) 
+}
 
-// console.log("A soma é:",SomaNumeros(1,2,4,5,56,6))
+console.log("A soma é:",SomaNumeros(1,2,4,5,56,6))
 
-// // Espread
+// Espread
 
-// const n1 = [1,2,3,4,5]
-// const n2 = [6,7,8,9,10]
+const n1 = [1,2,3,4,5]
+const n2 = [6,7,8,9,10]
 
-// const ValoresCombinados = [...n1 , ...n2]
+const ValoresCombinados = [...n1 , ...n2]
 
-// console.log({ValoresCombinados})
+console.log({ValoresCombinados})
 
-// const esPEndereço = {
-//     nome: "ANA"
-// }
+const esPEndereço = {
+    nome: "ANA"
+}
 
-// const DadosEndereço = {...esPEndereço, endereço:"Rua 1"}
+const DadosEndereço = {...esPEndereço, endereço:"Rua 1"}
 
-// console.log({DadosEndereço})
+console.log({DadosEndereço})
 
 function soma(...num){
     return num.reduce((n,total) => total+n)

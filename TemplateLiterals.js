@@ -1,4 +1,4 @@
-const nome = "Paulo"
+const nome = "João"
 const idade = 134
 
 console.log(`Nome: ${nome}, Idade: ${idade}`)

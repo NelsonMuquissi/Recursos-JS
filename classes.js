@@ -26,7 +26,7 @@ class Funcionario extends Pessoa {
     }
 }
 
-const funcionario = new Funcionario("Carla",19, 10000)
+const funcionario = new Funcionario("Carla Pedro",19, 10000)
 
 // funcionario.apresentaFunc()
 
